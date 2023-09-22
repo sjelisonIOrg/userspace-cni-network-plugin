@@ -15,7 +15,7 @@ permissions:
 jobs:
   analyze:
     name: Analyze
-    runs-on: self-hosted
+    runs-on: intel-ubuntu-latest
     permissions:
       actions: read
       contents: read
